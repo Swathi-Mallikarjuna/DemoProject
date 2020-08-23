@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Public Sapients</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" src="./css/index.css">
+</head>
+<body>
+<header id="websiteTitle">
+    <div class="header">
+            <p><span>SpaceX Launch Program</span></p>
+    </div>
+</header>
+    <div class="container-fluid p-3">
+        <div class="row">
+            <div class="col-lg-4 col-xl-2 col-md-6 col-sm-12">
+            <div id="side" class="rounded-sm">
+             <h5><b>Filters</b></h5>
+             <h6><u>Launch Year</u></h6>
+                <table class="table table-borderless">
+                    <tbody class ="table-year-filter">
+                    </tbody>
+                    </table>
+                    <div id="launchLand">
+                            <h6><u>Successfull Launch</u></h6>
+                            <table class="table table-borderless">
+                            <tbody>
+                                    <td><div><input type="submit" value="True" class="rounded-sm" onclick="successfullLaunch(this.value)"></div></td>
+                                    <td><div><input type="submit" value="False" class="rounded-sm" onclick="successfullLaunch(this.value)"></div></td>
+                            </tbody>
+                            </table>
+                            <h6><u>Successfull Landing</u></h6>
+                                    <table class="table table-borderless">
+                                    <tbody>
+                                            <td><div><input type="submit" value="True" class="rounded-sm" onclick="successfullLand(this.value)"></div></td>
+                                            <td><div><input type="submit" value="False" class="rounded-sm" onclick="successfullLand(this.value)"></div></td>
+                                    </tbody>
+                                    </table>
+                            </div>
+            </div>
+            </div>
+            <div class="col-lg-8 col-xl-10 col-md-6 col-sm-12" id="main">
+                <div class="card-deck SpaceX" id="spaceXDetails"></div>
+            </div>
+        </div>
+
+    </div>
+<footer>
+    <div id="signature" style=" display: none;">
+            <p>
+            <span><b>Developed By:</b></span>
+            <span>Swathi Mallikarjuna</span>
+            </p>
+    </div>
+    
+</footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+</html>
