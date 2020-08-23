@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Regular.ttf');
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Roboto;
+    margin: 0;
+    color: black;
+    background: #f1f1f1;
+  }
+
+  p {
+      margin-bottom: 0%;
+  }
+  
+  /* Header/logo Title */
+  .header {
+    padding: 20px 0px 0px 20px;
+    text-align: left;
+    font-size: 21px;
+    font-weight: bolder;
+    /* color: white; */
+  }
+
+ul {
+    text-align: left;
+}
+
+.card-deck .card{
+    padding: 5px;
+    margin: 5px;
+    
+}
+img {
+    height: 256px !important;
+    background: #f1f1f1;
+}
+
+#side {
+    margin: 5px;
+    padding: 5px;
+    background: white;
+    display: none;
+}
+
+.main {
+    flex: 2;
+}
+
+.table td {
+    width: 50%;
+    text-align-last: center;
+}
+
+.card-body {
+    text-align: left;
+    width: 256px;
+    font-size: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#launchLand {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+    font-size: 21px;
+  }
+
+  input, .searchByYearNotSelected {
+      background-color: #c4dd9c;
+      border-color: #c4dd9c;
+      color: black;
+      border-style: solid;
+  }
+  input:focus,
+  input:active{
+    background-color: #7bb901;
+    border-color: #7bb901;
+    color: black;
+    cursor: none;
+    border-style: solid;
+    outline: none;
+  }
+
+input {
+    width: 65px;
+    height: 30px;
+}
+
+#mission-id, #launch-year, #successfull-launch, #successfull-landing {
+    font-weight: bold;
+}
+
+#mission-id>span, #launch-year>span, #successfull-launch>span, #successfull-landing>span {
+    font-weight: normal;
+}
+
+h6{
+ text-align: center;
+}
+
+.card-title {
+    color: #495796;
+    font-weight: bold;
+}
